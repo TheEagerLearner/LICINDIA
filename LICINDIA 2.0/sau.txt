@@ -1,0 +1,27 @@
+Client Number 1 
+ Saurabh Mulgaonkar 
+ D.O.B:14|3|2000 
+ Mobile Number:897653421 
+ Policy Number: 1234 
+ Term: 12 
+ Premium:1111111 
+ Sum Assured: 1225853203 
+ 
+Client Number 2 
+ Veer Torascar 
+ D.O.B:6|4|2014 
+ Mobile Number:1234444 
+ Policy Number: 21212121 
+ Term: 1212212112 
+ Premium:2222 
+ Sum Assured: 222222 
+ 
+Client Number 3 
+ Yugh Torascar 
+ D.O.B:11|4|2017 
+ Mobile Number:1122 
+ Policy Number: 122 
+ Term: 1122 
+ Premium:222222 
+ Sum Assured: 61432718 
+ 
