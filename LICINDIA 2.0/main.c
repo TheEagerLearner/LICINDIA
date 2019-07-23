@@ -4,7 +4,9 @@ void main()
 {
 FILE *f;
 char fname[20],lname[20];
-int age,month,year,mob,term,sum,prem,pol,a,i;
+int age,month,year,mob,term,sum,prem,pol,a,i,b;
+
+one:
 f=fopen("sau.txt","a");
 printf("Enter the number of clients:");
 scanf("%d",&a);
@@ -43,6 +45,24 @@ fprintf(f,"Client Number %d \n %s %s \n D.O.B:%d|%d|%d \n Mobile Number:%d \n Po
 }
 
 fclose(f);
+
+do{
+    printf("\nDO you want to Enter Numbers Again:\n1)YES \n2)NO");
+    scanf("%d",&b);
+
+    switch(b)
+    {
+    case 1:
+        goto one;
+        break;
+
+    case 2:
+        printf("Have a Good Day");
+        return;
+    }
+
+}
+while(b<3);
 
 return 0;
 }
